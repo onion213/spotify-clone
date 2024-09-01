@@ -1,3 +1,4 @@
+// biome-ignore lint/style/noNamespaceImport: officialy recommended by radix-ui
 import * as Dialog from '@radix-ui/react-dialog'
 import { IoMdClose } from 'react-icons/io'
 
@@ -34,4 +35,5 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onChange, title, description, chi
     </Dialog.Root>
   )
 }
+
 export default Modal
