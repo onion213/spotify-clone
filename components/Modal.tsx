@@ -1,3 +1,4 @@
+// biome-ignore lint/style/noNamespaceImport: officialy recommended by radix-ui
 import * as Dialog from '@radix-ui/react-dialog'
 import { IoMdClose } from 'react-icons/io'
 
