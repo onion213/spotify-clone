@@ -34,4 +34,5 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onChange, title, description, chi
     </Dialog.Root>
   )
 }
+
 export default Modal
