@@ -3,7 +3,7 @@ import type { Song } from '@/types'
 import Image from 'next/image'
 
 interface MediaItemProps {
-  onClick: (id: string) => void
+  onClick?: (id: string) => void
   data: Song
 }
 
